@@ -7,11 +7,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nano-sql/core": "^2.3.7",
+    "@reduxjs/toolkit": "^1.5.0",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-icons": "^4.2.0",
     "react-is": "^16.8.0",
+    "react-redux": "^7.2.2",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
