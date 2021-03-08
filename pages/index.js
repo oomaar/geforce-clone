@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { NavContainer } from '../Containers';
 import HeadTag from '../HeadTag';
 
 const Title = styled.h1`
@@ -11,11 +12,12 @@ export default function Home() {
     <div>
       <HeadTag title="GeForce Graphics Cards" />
       
-      <Title>Navbar & Responsive burgger sidebar</Title>
-      <Title>Carousel</Title>
-      <Title>Single Jumbotron Section</Title>
-      <Title>Grid Services Section</Title>
-      <Title>Footer</Title>
+      <NavContainer />
+      
+      {/* <Title>Carousel</Title> */}
+      {/* <Title>Single Jumbotron Section</Title> */}
+      {/* <Title>Grid Services Section</Title> */}
+      {/* <Title>Footer</Title> */}
     </div>
   );
 };
