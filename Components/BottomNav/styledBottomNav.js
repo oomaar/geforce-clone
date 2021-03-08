@@ -7,7 +7,7 @@ export const Nav = styled.div`
     width: 100%;
     background-color: #000;
     transition: 0.5s ease;
-    height: 40px;
+    height: 70px;
     margin: 0;
 `;
 
