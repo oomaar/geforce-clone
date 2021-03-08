@@ -32,6 +32,7 @@ export const IconsWrap = styled.div`
     display: flex;
     flex: 0.5;
     justify-content: flex-end;
+    padding-right: 10px;
 `;
 
 export const IconWrap = styled.div`
