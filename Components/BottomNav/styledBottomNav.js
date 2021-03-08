@@ -105,7 +105,7 @@ export const DropLinksWrap = styled.div`
 `;
 
 export const NavLink = styled.button`
-    font-family: 'Geforce', Helvetica, sans-serif;
+    font-family: 'Recursive', Helvetica, Arial, sans-serif;
     outline: 0;
     border: 0;
     color: #808080;
