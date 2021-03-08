@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Sidebar } from '../Components';
 import { NavContainer } from '../Containers';
 import HeadTag from '../HeadTag';
 
@@ -13,6 +14,7 @@ export default function Home() {
       <HeadTag title="GeForce Graphics Cards" />
       
       <NavContainer />
+      <Sidebar />
       
       {/* <Title>Carousel</Title> */}
       {/* <Title>Single Jumbotron Section</Title> */}

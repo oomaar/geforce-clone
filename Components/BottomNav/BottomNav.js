@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { setToggleShow } from "../../Slices/sidebarSlice";
 import {
     Nav,
     Container,
@@ -9,10 +12,14 @@ import {
     DropDown,
     DropLinksWrap,
     DropDownCehvron,
+    ResponsiveBtn
 } from "./styledBottomNav";
 
 const BottomNav = () => {
     const [top, setTop] = useState(false);
+    const dispatch = useDispatch();
+
+    const handleSidebarShow = () => dispatch(setToggleShow({ value: true }));
 
     const transitionNavbar = () => {
         window.scrollY > 100 ? setTop(true) : setTop(false);
@@ -26,7 +33,7 @@ const BottomNav = () => {
     return (
         <Nav top={top}>
             <Container>
-                    <Logo>Geforce</Logo>
+                <Logo>Geforce</Logo>
 
                 <LinksWrap>
 
@@ -84,6 +91,10 @@ const BottomNav = () => {
                         <NavLink>Shop</NavLink>
                     </LinkWrap>
                 </LinksWrap>
+
+                <ResponsiveBtn onClick={handleSidebarShow}>
+                    <FaBars />
+                </ResponsiveBtn>
             </Container>
         </Nav>
     );

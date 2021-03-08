@@ -8,15 +8,19 @@ export const Nav = styled.div`
     background-color: #000;
     transition: 0.5s ease;
     height: 40px;
-    padding: 10px;
     margin: 0;
 `;
 
 export const Container = styled.div`
+    padding: 10px;
     display: flex;
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
+
+    @media screen and (max-width: 1000px) {
+        justify-content: space-between;
+    }
 `;
 
 export const Logo = styled.h1`
@@ -137,5 +141,15 @@ export const NavLink = styled.button`
 
     &:hover {
         color: ${({theme}) => theme.colors.hover};
+    }
+`;
+
+export const ResponsiveBtn = styled.div`
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+
+    @media screen and (max-width: 1000px) {
+        display: block;
     }
 `;
