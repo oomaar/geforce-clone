@@ -17,8 +17,8 @@ This project (a geforce website clone) was built for education purposes, I used 
 - styled-components
 
 # docs
-https://github.com/vercel/next.js/tree/master
-https://react-icons.github.io/react-icons
+- https://github.com/vercel/next.js/tree/master
+- https://react-icons.github.io/react-icons
 
 # colors (in-hexa)
 - 7dce03
