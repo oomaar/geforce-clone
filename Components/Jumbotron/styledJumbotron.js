@@ -13,6 +13,7 @@ export const SubContainer = styled.div`
 
     @media screen and (max-width: 1000px) {
         flex-direction: column-reverse;
+        text-align: center;
     }
 `;
 
