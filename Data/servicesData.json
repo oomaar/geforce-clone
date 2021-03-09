@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "imgURL": "/home/grid-1.png",
+        "imgAlt": "grid",
+        "title": "Support",
+        "subTitle": "Explore our knowledge base, user forums, customer service and contact details.",
+        "btnText": "Visit Now"
+    },
+    {
+        "id": 1,
+        "imgURL": "/home/grid-2.png",
+        "imgAlt": "grid",
+        "title": "GEFORCE EXPERIENCE",
+        "subTitle": "The super essential companion to your GeForce graphics card. Capture and share videos, screenshots, and livestreams. Keep your drivers up to date and optimize your games.",
+        "btnText": "Download"
+    },
+    {
+        "id": 2,
+        "imgURL": "/home/grid-3.png",
+        "imgAlt": "grid",
+        "title": "DRIVERS",
+        "subTitle": "Download the latest GeForce driver releases.",
+        "btnText": "Download"
+    }
+]
