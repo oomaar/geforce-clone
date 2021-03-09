@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Sidebar } from '../Components';
+import { Jumbotron, Sidebar } from '../Components';
 import { NavContainer, CarouselContainer } from '../Containers';
 import HeadTag from '../HeadTag';
 
@@ -16,40 +16,7 @@ export default function Home() {
       <NavContainer />
       <Sidebar />
       <CarouselContainer />
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      <h1>sd</h1>
-      
-      {/* <Title>Carousel</Title> */}
+      <Jumbotron />
       {/* <Title>Single Jumbotron Section</Title> */}
       {/* <Title>Grid Services Section</Title> */}
       {/* <Title>Footer</Title> */}
