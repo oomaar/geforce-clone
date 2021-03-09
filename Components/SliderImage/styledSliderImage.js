@@ -64,7 +64,6 @@ export const CarouselFeature = styled.div`
 
 export const Title = styled.h1`
     color: ${({loon}) => loon};
-    font-size: 60px;
     font-size: clamp(2.092rem, 5vw, 4rem);
     text-transform: uppercase;
     font-family: 'Geforce', Helvetica, sans-serif;
