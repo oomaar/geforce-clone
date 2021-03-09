@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Jumbotron, Services, Sidebar } from '../Components';
+import { GlobalFooter, Jumbotron, Services, Sidebar } from '../Components';
 import { NavContainer, CarouselContainer } from '../Containers';
 import HeadTag from '../HeadTag';
 
@@ -18,8 +18,8 @@ export default function Home() {
       <CarouselContainer />
       <Jumbotron />
       <Services />
-      {/* <Title>Grid Services Section</Title> */}
       {/* <Title>Footer</Title> */}
+      <GlobalFooter />
     </div>
   );
 };

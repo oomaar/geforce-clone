@@ -6,3 +6,4 @@ export { default as Dots } from "./Dots/Dots";
 export { default as Arrows } from "./Arrows/Arrows";
 export { default as Jumbotron } from "./Jumbotron/Jumbotron";
 export { default as Services } from "./Services/Services";
+export { default as GlobalFooter } from "./GlobalFooter/GlobalFooter";
