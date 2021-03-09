@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Sidebar } from '../Components';
-import { NavContainer } from '../Containers';
+import { NavContainer, CarouselContainer } from '../Containers';
 import HeadTag from '../HeadTag';
 
 const Title = styled.h1`
@@ -15,6 +15,7 @@ export default function Home() {
       
       <NavContainer />
       <Sidebar />
+      <CarouselContainer />
       
       {/* <Title>Carousel</Title> */}
       {/* <Title>Single Jumbotron Section</Title> */}
