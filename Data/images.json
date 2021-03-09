@@ -2,21 +2,41 @@
     {
         "id": 0,
         "url": "/home/carousel-1.png",
-        "alt": "Carousel Image-1"
+        "alt": "Carousel Image-1",
+        "title": "The Ultimate Play",
+        "titleColor": "#fff",
+        "subTitle": "Geforce Rtx 3060",
+        "subTitleColor": "#82b42f",
+        "buttonText": "Out Now"
     },
     {
         "id": 1,
         "url": "/home/carousel-2.jpg",
-        "alt": "Carousel Image-2"
+        "alt": "Carousel Image-2",
+        "title": "The Ultimate Play",
+        "titleColor": "#fff",
+        "subTitle": "Geforce Rtx 30 SERIES LAPTOPS",
+        "subTitleColor": "#82b42f",
+        "buttonText": "Buy Now"
     },
     {
         "id": 2,
         "url": "/home/carousel-3.jpg",
-        "alt": "Carousel Image-3"
+        "alt": "Carousel Image-3",
+        "title": "NVIDIA DLSS",
+        "titleColor": "#82b42f",
+        "subTitle": "MAX FPS. MAX QUALITY.POWERED BY AI.",
+        "subTitleColor": "#fff",
+        "buttonText": "Learn More"
     },
     {
         "id": 3,
         "url": "/home/carousel-4.jpg",
-        "alt": "Carousel Image-4"
+        "alt": "Carousel Image-4",
+        "title": "FRAMES WIN GAMES",
+        "titleColor": "#fff",
+        "subTitle": "POWERED BY GEFORCE RTX AND NVIDIA REFLEX",
+        "subTitleColor": "#82b42f",
+        "buttonText": "Learn More"
     }
 ] 
