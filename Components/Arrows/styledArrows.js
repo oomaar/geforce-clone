@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -17,7 +17,7 @@ export const Arrow = styled.span`
     z-index: 100;
     width: auto;
     padding: 1rem;
-    font-size: 40px;
+    font-size: clamp(26px, 10vw, 40px);
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     transition: 0.5s ease-in-out;
