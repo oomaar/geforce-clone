@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "url": "/home/carousel-1.png",
+        "alt": "Carousel Image-1"
+    },
+    {
+        "id": 1,
+        "url": "/home/carousel-2.jpg",
+        "alt": "Carousel Image-2"
+    },
+    {
+        "id": 2,
+        "url": "/home/carousel-3.jpg",
+        "alt": "Carousel Image-3"
+    },
+    {
+        "id": 3,
+        "url": "/home/carousel-4.jpg",
+        "alt": "Carousel Image-4"
+    }
+] 
