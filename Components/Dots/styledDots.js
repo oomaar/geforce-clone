@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     position: absolute;
-    top: 500px;
+    top: 90%;
     left: 0;
     right: 0;
     display: flex;

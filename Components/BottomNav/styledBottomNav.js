@@ -9,7 +9,7 @@ export const Nav = styled.div`
     height: 70px;
     margin: 0;
     top: ${({top}) => top ? '0px' : '40px'};
-    z-index: 100;
+    z-index: 900;
 `;
 
 export const Container = styled.div`
