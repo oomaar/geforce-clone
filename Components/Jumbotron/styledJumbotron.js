@@ -5,7 +5,6 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     margin: 100px auto;
-    padding: 20px;
 `;
 
 export const SubContainer = styled.div`
