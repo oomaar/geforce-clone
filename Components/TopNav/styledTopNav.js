@@ -6,9 +6,10 @@ export const Nav = styled.nav`
     width: 100%;
     background-color: #fff;
     transition: 0.5s ease;
-    height: 40px;
-    padding: 0 10px 0;
+    height: 35px;
+    padding: 10px 10px 0;
     margin: ${({show}) => show ? '0px' : '-100px 0 0'};
+    z-index: 101;
 `;
 
 export const Container = styled.div`
@@ -23,7 +24,7 @@ export const ImgWrap = styled.div`
     justify-content: flex-start;
 
     img {
-        width: 200px;
+        width: clamp(100px, 20vw, 150px);
         cursor: pointer;
     }
 `;
@@ -32,14 +33,14 @@ export const IconsWrap = styled.div`
     display: flex;
     flex: 0.5;
     justify-content: flex-end;
-    padding-right: 10px;
+    padding: 0 5px;
 `;
 
 export const IconWrap = styled.div`
     margin: 0 10px;
     color: #808080;
     cursor: pointer;
-    font-size: 20px;
+    font-size: clamp(16px, 5vw, 20px);
     
     &:hover {
         color: #000;

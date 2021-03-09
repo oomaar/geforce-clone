@@ -3,12 +3,13 @@ import styled from "styled-components";
 export const Nav = styled.div`
     position: fixed;
     color: #fff;
-    top: ${({top}) => top ? '0px' : '40px'};
     width: 100%;
     background-color: #000;
     transition: 0.5s ease;
     height: 70px;
     margin: 0;
+    top: ${({top}) => top ? '0px' : '40px'};
+    z-index: 100;
 `;
 
 export const Container = styled.div`
@@ -145,7 +146,7 @@ export const NavLink = styled.button`
 `;
 
 export const ResponsiveBtn = styled.div`
-    font-size: 25px;
+    font-size: clamp( 18px, 8vw, 25px);
     cursor: pointer;
     display: none;
 
